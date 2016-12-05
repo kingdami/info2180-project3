@@ -1,0 +1,143 @@
+#loginForm {
+    margin-top: 2%;
+    padding: 25px;
+      display: flex;
+      justify-content: flex-end;
+      font-size: large;
+}
+
+#homeNav {
+    margin-top: 2%;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+    text-align: center;
+}
+
+#homeNav input {
+    height: 40px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    background-color: #3b5887;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#homeNav input:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    
+}
+
+body h1 {
+    margin-top: 2%;
+    padding: 25px;
+  font-weight: 700;
+  color: white;
+}
+
+.row {
+    background-color: #3b5887;
+    color: gray;
+    height: 5%;
+}
+
+#loginForm input {
+    margin-right:2px;
+    opacity: 0.5;
+}
+
+#loginForm input:hover {
+    opacity: 0.75;
+}
+
+.createSection {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: block;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.createSection div input {
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px;
+}
+
+.createSection div {
+    font-size: medium;
+    margin: 5px;
+}
+
+#addUser {
+    border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.composeSection {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: block;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.composeSection input{
+    width: 80%;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+
+#message {
+    text-align: left;
+    height: 300px;
+}
+
+#sendbtn {
+    border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.inbox {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
